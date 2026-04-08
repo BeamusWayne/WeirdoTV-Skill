@@ -4,8 +4,6 @@
 
 把泽连斯基、米莱、孙笑川、川普、罗翔、马斯克、胡锡进等 **23位神人** 的极端言论提炼成可召唤的人格，用于创作、辩论、点评、纯抽象娱乐。
 
-灵感来源：[elon-musk-skill](https://github.com/alchaincyf/elon-musk-skill)
-
 ---
 
 ## 安装
@@ -94,7 +92,18 @@ cp SKILL.md ~/.claude/skills/weirdo-tv/SKILL.md
 - NBA官方档案（科比）
 - 美联储官方声明（耶伦）
 
-详见 [references/](references/) 目录
+---
+
+## 欢迎补充更新
+
+发现新神人、新语录、新玩法？欢迎提 PR 或 Issue：
+
+- **新增神人**：在 `SKILL.md` 神人名单中补充人物设定
+- **更新语录**：补充更准确或更经典的真实语录
+- **新增示例**：在 `examples/` 下添加有趣的对话示例
+- **优化提示词**：改进人格蒸馏的准确度
+
+> 一起把神人宇宙做大做强。
 
 ---
 
@@ -105,11 +114,8 @@ weirdo-tv/
 ├── README.md                    ← 本文件
 ├── SKILL.md                     ← 核心技能文件（安装此文件即可使用）
 ├── LICENSE                      ← MIT
-├── examples/
-│   └── demo-conversation.md    ← 完整示例对话
-└── references/
-    ├── 中文神人-语录调研.md     ← 中文神人真实语录来源
-    └── 国际神人-语录调研.md     ← 国际神人真实语录来源
+└── examples/
+    └── demo-conversation.md    ← 完整示例对话
 ```
 
 ---
